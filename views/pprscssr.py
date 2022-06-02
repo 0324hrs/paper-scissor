@@ -1,34 +1,10 @@
 import random
 
-# rock
-rock = print("""
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-""")
-
-# Paper
-paper = print("""
-     _______
----'    ____)____
-           ______)
-          _______)
-         _______)
----.__________)
-""")
-
-# Scissors
-scissor = print("""
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-""")
+# 
+rock = "RRRRRRRR"
+paper = "PPPPPPPP"
+scissor = "SSSSSSSS"
+# 
 images = [rock, paper, scissor]
 # 
 user_choice = int(input("what do you wannna choose? 0 for rock, 1 for paper and 2 for scissor\n"))
